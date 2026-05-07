@@ -26,7 +26,6 @@ function checkType(value : StringOrNumber) : "String" | "Number" {
     }
 }
 
-
 // console.log(checkType("Sara"));
 
 
@@ -58,8 +57,7 @@ const myBook = { title: "TypeScript Guide",
 
 // Problem-6
 class Person{
-   
-       name : string;
+        name : string;
         age : number;
 
 constructor(name: string, age: number){
@@ -73,9 +71,11 @@ class Student  extends Person{
     constructor(name : string,
         age : number,
         grade : string){
+
             super(name, age);
             this.grade = grade;
         }
+
         getDetails() : string{
             return `Name: ${this.name},
             Age: ${this.age},
@@ -83,4 +83,12 @@ class Student  extends Person{
         }
 }
 const student = new Student("Alice", 20,"A");
-console.log(student.getDetails());
+// console.log(student.getDetails());
+
+
+
+// Problem-7
+function getIntersection(arr1 : number[],arr2 : number[]) : number[]{
+        return arr1.filter(num => arr2.includes(num));
+    }
+    // console.log(getIntersection([1, 2, 3,4, 5], [3, 4, 5, 6, 7]));
