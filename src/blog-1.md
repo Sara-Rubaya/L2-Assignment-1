@@ -1,8 +1,9 @@
 The Four Pillars of OOP - Applied to Large-scale TypeScript
 
-As TypeScript applications grow, managing logic beacomes harder. OOP helps organize code usig four main principles: Inheritance, Encapsulation, Polymorphism, & Abstraction.
-this principles imporves scalability, readability and maintainability.
+Introduction: As TypeScript applications grow, managing logic beacomes harder. OOP helps organize code usig four main principles: Inheritance, Encapsulation, Polymorphism, & Abstraction.
+This principles imporves scalability, readability and maintainability.
 
+Body:
 1.Inheritance(Reusing logic):
 Inheritance allows one class to use features from another class. this reduces code duplication.
 Example:
@@ -70,4 +71,4 @@ Example:
             ~Improves security & reliability.
 
 
-The four pillars of OOP helps developers build clean and scalable TypeScript applications.Together they make large-scale projects easier to manage, maintain and expand.
+Conclusion: The four pillars of OOP helps developers build clean and scalable TypeScript applications.Together they make large-scale projects easier to manage, maintain and expand.
